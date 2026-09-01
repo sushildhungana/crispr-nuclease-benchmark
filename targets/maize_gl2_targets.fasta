@@ -1,0 +1,21 @@
+; Source: Lee et al. 2019, Plant Biotechnology Journal 17:362-372, Figure 1a + Methods
+; Gene: glossy2 (gl2) / GLOSSY2, Zea mays, exon 2
+; Legacy ID: GRMZM2G098239 (B73 AGPv3/v4 — matches genome build used in the paper's
+;             own Cas-OFFinder search)
+; Current ID: Zm00001d002353 (B73 RefGen_v5 — what CHOPCHOP/CRISPOR will default to)
+; Note: sequences below cross-checked against THREE independent mentions in the paper
+; (Figure 1a legend, Cas-OFFinder methods, cloning primer sequences) since one instance
+; in the Cas-OFFinder methods text had an apparent transcription inconsistency for gRNA2.
+
+>Target1_Cas9_gRNA1_SpCas9_PAM-NGG
+ACAGATCACAAACTTCAAATG
+>Target1_Cas12a_crRNA1_LbCas12a_PAM-TTTV
+GTCACAGATCACAAACTTCAAAT
+>Target2_Cas9_gRNA2_SpCas9_PAM-NGG
+AAGTGGGCGCAGATCCTGAG
+>Target2_Cas12a_crRNA2_LbCas12a_PAM-TTTV
+AACAAGTGGGCGCAGATCCTGAG
+>Target1_full_context_top_strand_with_PAMs
+TTTGGTCACAGATCACAAACTTCAAATGCGG
+>Target2_full_context_top_strand_with_PAMs
+TTTCAACAAGTGGGCGCAGATCCTGAGCGG
